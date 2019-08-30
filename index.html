@@ -80,8 +80,8 @@ path.useSurfaceShapeFor2D = true; // Use a surface shape in 2D mode.
 
 // Create and assign the path's attributes.
 var pathAttributes = new WorldWind.ShapeAttributes(null);
-pathAttributes.outlineColor = WorldWind.Color.WHITE;
-pathAttributes.interiorColor = new WorldWind.Color(0, 1, 1, 0.5);
+pathAttributes.outlineColor = WorldWind.Color.RED;
+pathAttributes.interiorColor = new WorldWind.Color(0, 1, 1, 1);
 pathAttributes.drawVerticals = path.extrude; //Draw verticals only when extruding.
 path.attributes = pathAttributes;
 
