@@ -1,0 +1,101 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <style>
+            canvas{ border: 1px solid black; }
+            canvas{
+               background-color:black; 
+               }
+
+        </style>
+        <canvas id="canvasOne" width="1024" height="2048">
+            Your browser does not support HTML5 Canvas.
+        </canvas>
+        <script 
+        src="https://files.worldwind.arc.nasa.gov/artifactory/web/0.9.0/worldwind.min.js"
+        type="text/javascript"></script>
+        <script  type="text/javascript">
+
+
+    //      var wwd = new WorldWind.WorldWindow("canvasOne");
+    //      wwd.addLayer(new WorldWind.BMNGOneImageLayer());
+    //      wwd.goTo(new WorldWind.Location(12.9716,77.5946));
+
+    //     // var layers = [
+    //     //     // Imagery layers.
+    //     //     {layer: new WorldWind.BMNGLayer(), enabled: true},
+           
+    //     // ];
+
+    //     // for (var l = 0; l < layers.length; l++) {
+    //     //     layers[l].layer.enabled = layers[l].enabled;
+    //     //     wwd.addLayer(layers[l].layer);
+    //     // }
+
+    //     // Create the path's positions.
+    //     var pathPositions = [];
+    //     // pathPositions.push(new WorldWind.Position(40, -100, 1e4));
+    //     // pathPositions.push(new WorldWind.Position(45, -110, 1e4));
+    //     // pathPositions.push(new WorldWind.Position(46, -122, 1e4));
+
+    // //     pathPositions.push(new WorldWind.Position(12.9716, 77.5946, 0));
+    // //    pathPositions.push(new WorldWind.Position(28.7041, 77.1025, 1));
+    // //    pathPositions.push(new WorldWind.Position(17.3850, 78.4867, 0));
+    // //    pathPositions.push(new WorldWind.Position(19.0760, 72.8777, 0));
+    // //    pathPositions.push(new WorldWind.Position(13.0827, 80.2707, 0));
+    // //    pathPositions.push(new WorldWind.Position(-25.734968, 134.489563, 0));
+    // //    pathPositions.push(new WorldWind.Position(22.3193, 114.1694, 0));
+    // //    pathPositions.push(new WorldWind.Position(4.2105, 101.9758, 0));
+    // //    pathPositions.push(new WorldWind.Position(61.9241, 25.7482, 0));
+
+    //     pathPositions.push(new WorldWind.Position(12.9716, 77.5946, 0));
+    //    pathPositions.push(new WorldWind.Position(28.7041, 77.1025, 1));
+    //    pathPositions.push(new WorldWind.Position(17.3850, 78.4867, 0));
+    //    pathPositions.push(new WorldWind.Position(19.0760, 72.8777, 0));
+    //    pathPositions.push(new WorldWind.Position(13.0827, 80.2707, 0));
+    //    pathPositions.push(new WorldWind.Position(-25.734968, 134.489563, 0));
+    //    pathPositions.push(new WorldWind.Position(22.3193, 114.1694, 0));
+    //    pathPositions.push(new WorldWind.Position(4.2105, 101.9758, 0));
+    //    pathPositions.push(new WorldWind.Position(61.9241, 25.7482, 0));
+
+      
+
+    //    wwd.goTo(new WorldWind.Location(12.9716,77.5946));
+
+    //     // Create the path.
+    //     var path = new WorldWind.Path(pathPositions, null);
+    //     path.altitudeMode = WorldWind.RELATIVE_TO_GROUND; // The path's altitude stays relative to the terrain's altitude.
+    //     path.followTerrain = true;
+    //     path.extrude = true; // Make it a curtain.
+    //     path.useSurfaceShapeFor2D = true; // Use a surface shape in 2D mode.
+
+    //     // Create and assign the path's attributes.
+    //     var pathAttributes = new WorldWind.ShapeAttributes(null);
+    //     pathAttributes.outlineColor = WorldWind.Color.WHITE;
+    //     pathAttributes.interiorColor = new WorldWind.Color(0, 1, 1, 0.5);
+    //     pathAttributes.drawVerticals = path.extrude; //Draw verticals only when extruding.
+    //     path.attributes = pathAttributes;
+
+    //     // Create and assign the path's highlight attributes.
+    //     var highlightAttributes = new WorldWind.ShapeAttributes(pathAttributes);
+    //     highlightAttributes.outlineColor = WorldWind.Color.RED;
+    //     highlightAttributes.interiorColor = new WorldWind.Color(1, 1, 1, 0.5);
+    //     //path.highlightAttributes = highlightAttributes;
+
+    //     // Add the path to a layer and the layer to the WorldWindow's layer list.
+    //     var pathsLayer = new WorldWind.RenderableLayer();
+    //     pathsLayer.displayName = "Paths";
+    //     pathsLayer.addRenderable(path);
+    //     wwd.addLayer(pathsLayer);
+
+    //     // Now set up to handle highlighting.
+    //     var highlightController = new WorldWind.HighlightController(wwd);
+
+    //     // Create a layer manager for controlling layer visibility.
+    //     var layerManager = new LayerManager(wwd);
+        
+        </script>
+    </body>
+</html>
