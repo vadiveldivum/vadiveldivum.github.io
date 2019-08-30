@@ -8,6 +8,9 @@
             canvas{
                background-color:black; 
                }
+               body{
+                 background-color:black; 
+               }
 
         </style>
         <canvas id="canvasOne" width="1024" height="2048">
@@ -81,8 +84,9 @@ path.useSurfaceShapeFor2D = true; // Use a surface shape in 2D mode.
 // Create and assign the path's attributes.
 var pathAttributes = new WorldWind.ShapeAttributes(null);
 pathAttributes.outlineColor = WorldWind.Color.WHITE;
-pathAttributes.interiorColor = new WorldWind.Color(0, 1, 1, 0.5);
+pathAttributes.interiorColor = new WorldWind.Color(1, 1, 1, 1);
 pathAttributes.drawVerticals = path.extrude; //Draw verticals only when extruding.
+pathAttributes.in=10;
 path.attributes = pathAttributes;
 
 // Create and assign the path's highlight attributes.
